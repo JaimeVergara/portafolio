@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: #222;
+}
+
+.port {
+  align-items: center;
+  color: #fff;
+  font-size: 1.0rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.port-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  margin-bottom: 2rem;
+}
+
+.margin-left {
+  margin-left: 1rem;
+}
+
+.margin-right {
+  margin-right: 1rem;
+}
+
+.margin-buttom {
+  margin-bottom: 1rem;
+}
+
+.titulos {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.experiencia, .proyecto {
+  display: flex;
+  justify-content: center;  /* Centra los elementos horizontalmente */
+  align-items: center;      /* Centra los elementos verticalmente */
+  gap: 30px;                /* Aumenta el espacio entre los elementos */
+  margin: 20px auto;        /* Agrega margen superior e inferior y centra horizontalmente */
+  padding: 20px;            /* Agrega un poco de padding alrededor */
+  max-width: 1000px;         /* Limita el ancho para que no ocupe toda la pantalla */
+}
+
+.info {
+  text-align: start;       /* Centra el texto dentro de la parte izquierda */
+  min-width: 300px;
+}
+
+.puesto {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block; /* Para separar líneas */
+}
+
+.empresa, .fecha {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.descripcion {
+  flex: 1;
+  text-align: justify; 
+}
+
