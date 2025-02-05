@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background: #222;
+  background: #0A0F1D;
 }
 
 .port {
@@ -33,6 +33,10 @@
   margin-bottom: 1rem;
 }
 
+.margin-top {
+  margin-top: 3rem;
+}
+
 .titulos {
   color: #fff;
   font-size: 1.5rem;
@@ -50,9 +54,14 @@
   max-width: 1000px;         /* Limita el ancho para que no ocupe toda la pantalla */
 }
 
-.info {
+.info-experiencia {
   text-align: start;       /* Centra el texto dentro de la parte izquierda */
   min-width: 300px;
+}
+
+.info-proyecto {
+  text-align: start;       /* Centra el texto dentro de la parte izquierda */
+  min-width: 400px;
 }
 
 .puesto {
@@ -71,4 +80,50 @@
   flex: 1;
   text-align: justify; 
 }
+
+@media (max-width: 768px) {
+  .experiencia, .proyecto {
+    flex-direction: column; /* Cambia a diseño vertical */
+    text-align: center; /* Centra el texto */
+  }
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px; /* Agrega espacio entre botones */
+}
+
+.btn {
+  border-radius: 30px; /* Bordes redondeados */
+  padding: 10px 20px; /* Más espacio interno */
+  transition: all 0.3s ease-in-out; /* Suaviza efectos */
+}
+
+.btn:hover {
+  transform: scale(1.05); /* Efecto de agrandamiento al pasar el mouse */
+}
+
+.footer {
+  background: #0A0F1D;
+  color: #666;
+  padding: 1rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.img-proyecto {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid white; 
+}
+
+.spce-btn {
+  display: flex;
+  gap: 30px; /* Agrega espacio entre botones */
+  margin-right: 1rem;
+}
+
+
 

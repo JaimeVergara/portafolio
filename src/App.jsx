@@ -8,6 +8,7 @@ import { NavBar } from './components/NavBar';
 import { Tecnologia } from './components/Tecnologia';
 import { Experiencia } from './components/Experiencia';
 import { Proyectos } from './components/Proyectos';
+import { Footer } from './components/Footer';
 
 
 function Home() {
@@ -40,6 +41,7 @@ function App() {
       <Tecnologia></Tecnologia>
       <Experiencia></Experiencia>
       <Proyectos></Proyectos>
+      <Footer></Footer>
     </section>
   );
 }
