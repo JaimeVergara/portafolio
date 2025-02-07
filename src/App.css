@@ -21,9 +21,6 @@
   margin-bottom: 2rem;
 }
 
-.margin-left {
-  margin-left: 1rem;
-}
 
 .margin-right {
   margin-right: 1rem;
@@ -91,12 +88,32 @@
     width: 95%; /* Asegura que ocupe todo el ancho disponible */
   }
 }
+.tecno {
+  display: flex;
+  flex-wrap: wrap;  /* Permite que las tecnologías se acomoden en varias líneas */
+  gap: 10px;  /* Espaciado uniforme entre los elementos */
+  justify-content: center; /* Centra las tecnologías */
+}
+
+.badge {
+  padding: 8px 12px;
+  border-radius: 12px; /* Bordes redondeados */
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.margin-left {
+  margin-left: 0; /* Elimina margen innecesario */
+}
 
 /* Responsividad */
 @media (max-width: 768px) {
-  .tecno {
+  .tecno, .port-info {
     justify-content: center;
     width: 95%; 
+    margin-left: 2rem; 
   }
 
   .badge {

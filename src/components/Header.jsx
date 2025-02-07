@@ -5,9 +5,11 @@ export function Header() {
     <article className="port">
       <header>
         <img className="port-avatar" src="/portafolio/images/yo.JPG" alt="yo" />
+        <div className="port-info">
         <h2>Hola, soy Jaime Vergara</h2><br />
         <p>Ingeniero en Informática con experiencia en desarrollo Full Stack <br />
           3 años de experiencia en desarrollo de aplicaciones web.</p>
+        </div>
       </header>
       <div className="btn-group" role="group" aria-label="Basic outlined example">
         <a href="/portafolio/documents/curriculumvitae.pdf" target="_blank" type="button" className="btn btn-outline-light"><i className="fa-regular fa-file-lines"></i></a>
