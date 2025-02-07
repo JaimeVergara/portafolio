@@ -83,8 +83,25 @@
 
 @media (max-width: 768px) {
   .experiencia, .proyecto {
+    display: flex; /* Asegura que flexbox está activo */
     flex-direction: column; /* Cambia a diseño vertical */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
     text-align: center; /* Centra el texto */
+    width: 95%; /* Asegura que ocupe todo el ancho disponible */
+  }
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .tecno {
+    justify-content: center;
+    width: 95%; 
+  }
+
+  .badge {
+    font-size: 0.9rem; /* Ajusta el tamaño en pantallas pequeñas */
+    padding: 6px 10px;
   }
 }
 
