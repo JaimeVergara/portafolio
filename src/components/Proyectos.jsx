@@ -4,13 +4,13 @@ const proyectos = [
     {
         nombre: 'Carnet Pet',
         descripcion: 'Aplicación web para gestionar la información de mascotas, como vacunas, enfermedades, etc. Desarrollada con Vue.js para el front-end y Laravel para el back-end.',
-        imagen: '/images/carnetpet.jpg',
+        imagen: '/portafolio/images/carnetpet.jpg',
         github: 'https://github.com/JaimeVergara/carnet-pet'
     },
     {
         nombre: 'Portafolio',
         descripcion: 'Portafolio personal desarrollado con React.js y Bootstrap. Incluye información sobre mi experiencia laboral, tecnologías que manejo y proyectos realizados.',
-        imagen: '/images/portafolio.jpg',
+        imagen: '/portafolio/images/portafolio.jpg',
         github: 'https://github.com/JaimeVergara/portafolio'
     },
     {
