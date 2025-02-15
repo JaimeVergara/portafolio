@@ -16,7 +16,7 @@ const proyectos = [
     {
         nombre: 'Mi web',
         descripcion: 'Página web personal desarrollada con HTML, CSS y JavaScript. Incluye información sobre mi experiencia laboral, tecnologías que manejo y proyectos realizados.',
-        imagen: '',
+        imagen: '/portafolio/images/miweb.jpg',
         github: 'https://github.com/JaimeVergara/mi-web'
     }
 ]
