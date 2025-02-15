@@ -1,9 +1,20 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 1280px;   /* Limita el ancho máximo */
+  margin: 0 auto;       /* Centra el contenido horizontalmente */
   padding: 2rem;
   text-align: center;
-  background: #0A0F1D;
+  background: #0A0F1D;  /* Azul oscuro */
+  min-height: 100vh;    /* Ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centra el contenido */
+  justify-content: center;
+}
+
+@media (max-width: 430px) {
+  #root {
+    padding: 1rem;
+  }
 }
 
 .port {
@@ -11,7 +22,7 @@
   color: #fff;
   font-size: 1.0rem;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 .port-avatar {
@@ -79,15 +90,19 @@
 }
 
 @media (max-width: 768px) {
-  .experiencia, .proyecto {
+  .experiencia, .proyecto, .tecno, .port-info {
     display: flex; /* Asegura que flexbox está activo */
     flex-direction: column; /* Cambia a diseño vertical */
     align-items: center; /* Centra horizontalmente */
     justify-content: center; /* Centra verticalmente */
     text-align: center; /* Centra el texto */
     width: 95%; /* Asegura que ocupe todo el ancho disponible */
+    margin: auto; /* Centra horizontalmente */
+    padding: 10px;
+
   }
 }
+
 .tecno {
   display: flex;
   flex-wrap: wrap;  /* Permite que las tecnologías se acomoden en varias líneas */
@@ -108,19 +123,6 @@
   margin-left: 0; /* Elimina margen innecesario */
 }
 
-/* Responsividad */
-@media (max-width: 768px) {
-  .tecno, .port-info {
-    justify-content: center;
-    width: 95%; 
-    margin-left: 2rem; 
-  }
-
-  .badge {
-    font-size: 0.9rem; /* Ajusta el tamaño en pantallas pequeñas */
-    padding: 6px 10px;
-  }
-}
 
 .btn-group {
   display: flex;

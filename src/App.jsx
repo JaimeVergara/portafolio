@@ -32,8 +32,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/services" element={<Services />} />
-            </Routes>
+              <Route path="/services" element={<Services />} /> </Routes>
           </div>
         </NavBar>
       </Router> */}
