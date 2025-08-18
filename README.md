@@ -1,50 +1,55 @@
-# Portafolio en React
+#  Jaime Vergara – Portafolio Web
 
-Este es el sitio web oficial de **NeoFarma**, desarrollado con **React** y **Bootstrap 5**, y publicado en **GitHub Pages**.  
-Nuestro objetivo es ofrecer a nuestros clientes una experiencia web clara, moderna y fácil de navegar.
+Bienvenido a mi portafolio personal, desarrollado en **React** y alojado en **GitHub Pages**. Aquí podés explorar mis proyectos, habilidades y hacer contacto conmigo.
 
-🌍 **Visítanos aquí:** [https://jaimevergara.github.io/neofarma/](https://jaimevergara.github.io/neofarma/)
-
----
-
-## 📸 Vista previa
-
-### 🖥 Versión Escritorio
-![Captura escritorio](./screenshots/desktop-preview.png)
-
-### 📱 Versión Móvil
-![Captura móvil](./screenshots/mobile-preview.png)
+🌐 **Visitalo en línea:** [jaimevergara.github.io/portafolio](https://jaimevergara.github.io/portafolio/)
 
 ---
 
-## 🚀 Tecnologías utilizadas
-- **React** ⚛️
-- **Bootstrap 5** 🎨
-- **Font Awesome** 🔤
+##  Contenido del Portafolio
+
+- **Inicio** – Presentación personal.
+- **Proyectos** – Galería de proyectos destacados con descripciones, tecnologías y enlaces.
+- **Habilidades** – Tecnologías y herramientas que manejo.
+- **Contacto** – Formulario para mensajes o acceso directo a mis redes profesionales.
+
+---
+
+##  Tecnologías usadas
+
+- **React** (Create React App)
+- **Bootstrap 5** para estilos rápidos y responsivos
+- **Font Awesome** para íconos
 - **HTML5 / CSS3 / JavaScript**
 
 ---
 
-## 📦 Instalación y ejecución local
+##  Instalación y ejecución local
 
-1. **Clonar el repositorio**
-   ```bash
-   git clone https://github.com/jaimevergara/portafolio.git
+1. Cloná el repositorio:
+    ```bash
+    git clone https://github.com/jaimevergara/portafolio.git
+    ```
+2. Entrá a la carpeta del proyecto:
+    ```bash
+    cd portafolio
+    ```
+3. Instalá las dependencias:
+    ```bash
+    npm install
+    ```
+4. Iniciá el servidor de desarrollo:
+    ```bash
+    npm start
+    ```
+5. Abrí `http://localhost:3000` en tu navegador.
 
-2. **Entrar a la carpeta del proyecto**
-   ```bash
-   cd neofarma
+---
 
-3. **Instalar dependencias**
-   ```bash
-   npm install
+##  Cómo publicar o actualizar en GitHub Pages
 
-4. **Ejecutar en modo desarrollo**
-   ```bash
-   npm run dev
+Este proyecto está desplegado usando **gh-pages**. Para actualizarlo:
 
-5. **npm run build**
-   ```bash
-   npm run build
-
-
+```bash
+npm run build
+npm run deploy
