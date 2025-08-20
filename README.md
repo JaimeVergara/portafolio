@@ -42,7 +42,7 @@ Bienvenido a mi portafolio personal, desarrollado en **React** y alojado en **Gi
     ```bash
     npm start
     ```
-5. Abrí `http://localhost:3000` en tu navegador.
+5. Abrí en tu navegador.
 
 ---
 
